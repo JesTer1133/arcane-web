@@ -1,0 +1,240 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+.background-1 {
+    height: 100vh;
+}
+
+.background-1 img {
+    width: 100%;
+    height: 100%;
+}
+
+.paragraf-1 {
+    height: 100vh;
+    background-color: #131d24;
+}
+
+header {
+    display: flex;
+    width: 800px;
+    height: 50px;
+    left: 50%;
+    background: linear-gradient(#d7cbdf, #7e6792);
+    box-shadow: 0px 4px 4px 0px;
+    position: absolute;
+    top: 15px;
+    justify-content: center;
+    align-items: center;
+    transform: translateX(-50%);
+    border-radius: 50px;
+}
+
+header nav ul li:hover {
+    color: #d93d8d;
+    transition: 1s;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    cursor: pointer;
+}
+
+li {
+    padding: 20px;
+}
+
+.header-cta {
+    background: linear-gradient(#d93d8d, #8c0a4d);
+    border: none;
+    border-radius: 99px;
+    padding: 10px;
+    width: 120px;
+    cursor: pointer;
+}
+
+.header-cta:hover {
+    color: #663f87;
+    transition: 1s;
+}
+
+.paragraf-1 img {
+    transform: rotate(180deg);
+    width: 100%;
+}
+
+.adventure-cards {
+    height: 580px;
+    display: flex;
+    align-items: center;
+    background-color: #131D24;
+    padding: 40px 20px;
+}
+
+.adventure-cards__container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.adventure-card {
+    height: 354px;
+    min-width: 245px;
+    padding: 20px;
+    border-radius: 10px;
+    flex: 1;
+    text-align: center;
+}
+
+.adventure-card__icon {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 20px;
+    gap: 20px;
+}
+
+.card {
+    border: 2px solid #663f87;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    flex: 1;
+    transition: transform 0.3s ease;
+    width: 200px;
+    height: 250px;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.card h1 {
+    font-size: 1.8em;
+    color: #9b9b9b;
+    margin-bottom: 10px;
+}
+
+.card h2 {
+    font-size: 1.2em;
+    font-style: italic;
+    color: #663f87;
+    margin-bottom: 20px;
+}
+
+.card p {
+    font-size: 0.95em;
+    margin-bottom: 20px;
+    color: #d93d8d;
+}
+
+.divider {
+    width: 100%;
+    height: 2px;
+    background-color: #663f87;
+    margin: 10px auto;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.icon {
+    width: 15px;
+    height: 15px;
+    background-color: #663f87;
+    border-radius: 50%;
+}
+.last-one{
+    height: 100vh;
+    position: relative;
+}
+.last-one img{
+    width: 100%;
+    height: 100%;
+}
+.gif{
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    top: 0%;
+    transform: rotate(30deg);
+}
+.gif img{
+    width: 100%;
+    height: 100%;
+}
+.thunder{
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    top: 0%;
+    transform: rotate(30deg);
+    right: 2%;
+}
+.thunder img{
+    width: 100%;
+    height: 100%;
+}
+.robot{
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    bottom: -45px;
+    
+}
+.robot img{
+    width: 100%;
+    height: 100%;
+}
+.jinx{
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    bottom: 0%;
+    right: 2%;
+}
+.jinx img{
+    width: 100%;
+    height: 100%;
+}
+footer{
+    background: linear-gradient(#8c0a4d,#d93d8d);
+    height: 10vh;   
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px;
+}
+data{
+    font-family:fantasy ;
+}
+.user{
+    font-family: fantasy;
+    margin-right: 0%;
+}
+body{
+    overflow-x: hidden;
+}
+.up img{
+    bottom: 0%;
+    transform: rotate(0deg);
+    top: -50px;
+}
+
+
